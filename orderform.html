@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./orderform.css">
+    <!-- <link rel="stylesheet" href="./indexi.css"> -->
+    <title>orderform</title>
+</head>
+<body>
+    <!-- Order section starts -->
+    <main class="order" id="order">
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">fast and easy</h1>
+        <p>
+            please fill out the form below to order
+        </p>
+        <div class="form-container">
+        
+            <form action="#">
+                <div class="input-wrapper">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter your name" required="required">
+                    </div>
+                    <div>
+                        <label for="Number">Number</label>
+                        <input type="number" placeholder="Phone number" required="required">
+                    </div>
+                </div>
+
+                <div class="input-wrapper">
+                    <div>
+                        <label for="text">Your order</label>
+                        <input type="text" placeholder="enter food name" required="required">
+                    </div>
+                    <div>
+                        <label for="order">Extra</label>
+                        <input type="text" placeholder="extra with food">
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <div>
+                        <label for="#">Number of order</label>
+                        <input type="number" placeholder="how much" required="required">
+                        <!-- <select name="how much" id="how much">1</select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>    
+                            <option value="more">more</option> -->
+                    </div>
+                    <div>
+                        <label for="date">Date and time</label>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+
+                <div class="input-wrapper">
+                    <div>
+                        <label for="address">Address</label> 
+                        <textarea name="" id="" cols="30" rows="10" placeholder="enter your address" required="required"></textarea>                  
+                    </div>
+                    <div>
+                        <label for="comment">Comment</label>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="enter comments"></textarea>
+                    </div>
+                </div>               
+                <input type="submit" class="btn" value="summit"> 
+            </form>
+        </div> 
+    </main>
+
+</body>
+</html>
